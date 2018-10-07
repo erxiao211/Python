@@ -15,6 +15,9 @@ def news(xml_news_url):
 	
 	for news in news_list:
 		
+		
+#test		
+		
 		print(news.title.text)
 		print(news.link.text)
 		print(news.pubDate.text)	
